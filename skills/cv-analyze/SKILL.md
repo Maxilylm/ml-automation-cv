@@ -2,7 +2,7 @@
 name: cv-analyze
 description: "Analyze image datasets: class distribution, resolution statistics, quality assessment (blur, duplicates, corrupt), label verification, and sample grid generation."
 aliases: [image eda, image analysis, cv dataset analysis, image dataset]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

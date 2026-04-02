@@ -2,7 +2,7 @@
 name: cv-augment
 description: "Configure and preview data augmentation strategies (light, medium, heavy, custom) with annotation-aware transforms for CV training."
 aliases: [image augmentation, data augmentation, augment images, cv augment, cutmix, mixup]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

@@ -2,7 +2,7 @@
 name: cv-train
 description: "Train CV models for classification, detection, or segmentation with transfer learning from pretrained backbones (ResNet, EfficientNet, YOLO, U-Net)."
 aliases: [train cv, image classification, object detection train, segmentation train, transfer learning cv]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

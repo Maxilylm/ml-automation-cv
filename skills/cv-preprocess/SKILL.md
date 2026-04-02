@@ -2,7 +2,7 @@
 name: cv-preprocess
 description: "Image preprocessing pipeline: resize, normalize, augment, and split into train/val/test sets with stratified sampling."
 aliases: [image preprocess, image resize, image normalize, cv pipeline, image split]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

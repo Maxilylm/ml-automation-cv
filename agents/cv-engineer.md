@@ -4,7 +4,7 @@ description: "Train CV models: classification, detection, segmentation. PyTorch/
 model: sonnet
 color: "#4F46E5"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [image classification, object detection, image segmentation, cnn, resnet, yolo, transfer learning, computer vision model, pytorch vision, tensorflow vision]
 hooks_into:
   - after-training

@@ -4,7 +4,7 @@ description: "Deploy CV models: ONNX export, TorchServe, TensorFlow Serving, API
 model: sonnet
 color: "#4338CA"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [cv deploy, onnx, torchserve, tensorflow serving, image api, cv endpoint, model export]
 ---
 

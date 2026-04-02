@@ -2,7 +2,7 @@
 name: cv-evaluate
 description: "Evaluate trained CV models with accuracy, confusion matrix, per-class metrics, mAP, mIoU, and Grad-CAM visualizations."
 aliases: [eval cv, cv metrics, image model eval, confusion matrix cv, grad-cam]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

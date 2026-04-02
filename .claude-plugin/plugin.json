@@ -1,10 +1,10 @@
 {
-  "name": "ml-automation-cv",
+  "name": "spark-cv",
   "version": "0.2.0",
-  "description": "Computer vision extension for ml-automation. Image preprocessing, CNN training, object detection, image classification, data augmentation, and model deployment.",
+  "description": "Computer vision extension for spark. Image preprocessing, CNN training, object detection, image classification, data augmentation, and model deployment.",
   "author": { "name": "Maximo Lorenzo y Losada" },
   "repository": "https://github.com/Maxilylm/ml-automation-cv",
   "license": "MIT",
-  "keywords": ["computer-vision", "image", "cnn", "object-detection", "classification", "augmentation", "pytorch", "tensorflow", "ml-automation-extension"],
-  "dependencies": ["ml-automation-core"]
+  "keywords": ["computer-vision", "image", "cnn", "object-detection", "classification", "augmentation", "pytorch", "tensorflow", "spark-extension"],
+  "dependencies": ["spark-core"]
 }

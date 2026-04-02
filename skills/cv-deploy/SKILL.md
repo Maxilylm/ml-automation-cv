@@ -2,7 +2,7 @@
 name: cv-deploy
 description: "Deploy CV models via ONNX export, TorchServe, TensorFlow Serving, or FastAPI endpoints with optional quantization."
 aliases: [deploy cv, onnx export, torchserve, tensorflow serving, cv api, model export]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 
