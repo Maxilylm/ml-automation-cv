@@ -1,6 +1,6 @@
 {
   "name": "ml-automation-cv",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Computer vision extension for ml-automation. Image preprocessing, CNN training, object detection, image classification, data augmentation, and model deployment.",
   "author": { "name": "Maximo Lorenzo y Losada" },
   "repository": "https://github.com/Maxilylm/ml-automation-cv",

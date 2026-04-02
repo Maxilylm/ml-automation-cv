@@ -5,15 +5,10 @@ Requires ml_utils.py from the ml-automation core plugin to be present
 in the same directory (copied via Stage 0 of CV commands).
 """
 
-import os
 import json
 import re
-import math
 from pathlib import Path
-from collections import Counter, defaultdict
-from typing import List, Dict, Optional, Tuple, Any
-
-from ml_utils import save_agent_report, load_agent_report
+from collections import Counter
 
 
 # --- Relevance Detection ---
