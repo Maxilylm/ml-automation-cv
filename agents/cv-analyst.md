@@ -6,8 +6,6 @@ color: "#6366F1"
 tools: [Read, Write, Bash(*), Glob, Grep]
 extends: spark
 routing_keywords: [image analysis, image dataset, image quality, class distribution, image eda, visual inspection, image statistics]
-hooks_into:
-  - after-eda
 ---
 
 # CV Analyst
