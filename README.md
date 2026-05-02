@@ -19,11 +19,11 @@ claude plugin add /path/to/spark-cv
 
 ### Agents
 
-| Agent | Purpose | Hooks Into |
-|---|---|---|
-| `cv-analyst` | Image dataset analysis, class distribution, quality assessment, label verification | `after-eda` |
-| `cv-engineer` | CV model training: classification, detection, segmentation with transfer learning | `after-training` |
-| `cv-deployer` | CV model deployment: ONNX export, TorchServe, TensorFlow Serving, API endpoints | *(direct invocation)* |
+| Agent | Purpose |
+|---|---|
+| `cv-analyst` | Image dataset analysis, class distribution, quality assessment, label verification |
+| `cv-engineer` | CV model training: classification, detection, segmentation with transfer learning |
+| `cv-deployer` | CV model deployment: ONNX export, TorchServe, TensorFlow Serving, API endpoints |
 
 ### Commands
 

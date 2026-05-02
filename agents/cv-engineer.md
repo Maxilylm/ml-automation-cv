@@ -6,8 +6,6 @@ color: "#4F46E5"
 tools: [Read, Write, Bash(*), Glob, Grep]
 extends: spark
 routing_keywords: [image classification, object detection, image segmentation, cnn, resnet, yolo, transfer learning, computer vision model, pytorch vision, tensorflow vision]
-hooks_into:
-  - after-training
 ---
 
 # CV Engineer
